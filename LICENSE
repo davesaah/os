@@ -1,0 +1,55 @@
+DaveSaah OS - Distribution License
+======================================
+
+PART 1: MIT LICENSE (For Wrapper Scripts & Tooling)
+--------------------------------------------------
+The following applies to: startup.sh and validate.sh.
+
+Copyright (c) 2026 DaveSaah
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+PART 2: GNU GENERAL PUBLIC LICENSE v2 (For Kernel & System Utils)
+-----------------------------------------------------------------
+The binary components included in this distribution, specifically the 
+Linux Kernel (bzImage) and the root filesystem utilities (BusyBox/Buildroot), 
+are licensed under the GNU General Public License, version 2 (GPLv2).
+
+These components are distributed in the hope that they will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
+GNU General Public License for more details.
+
+
+PART 3: WRITTEN OFFER FOR SOURCE CODE
+-------------------------------------
+In accordance with Section 3(b) of the GPLv2, the distributor (David Saah) 
+hereby offers to provide the complete, corresponding machine-readable 
+source code for the Linux Kernel and BusyBox components included in this 
+distribution.
+
+This offer is valid for three (3) years from the date of distribution. 
+To obtain the source code, please contact the maintainer at:
+
+   dave@davesaah.com 
+
+The specific configuration files (defconfigs) used to generate these 
+binaries are provided in the /src directory of this package to facilitate 
+independent reproduction of the build.
